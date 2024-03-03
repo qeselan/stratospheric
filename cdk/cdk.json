@@ -2,6 +2,8 @@
   "context": {
     "applicationName": "todo-app",
     "region": "us-east-1",
-    "accountId": "654654365802"
+    "accountId": "654654365802",
+    "springProfile": "aws",
+    "environmentName": "staging"
   }
 }
