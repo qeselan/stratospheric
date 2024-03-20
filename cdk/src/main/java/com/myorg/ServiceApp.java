@@ -35,7 +35,7 @@ public class ServiceApp {
         requireNonEmpty(dockerImageUrl, "context variable 'dockerImageUrl' must not be null");
 
         String dockerImageTag = (String) app.getNode().tryGetContext("dockerImageTag");
-        requireNonEmpty(dockerImageUrl, "context variable 'dockerImageTag' must not be null");
+        requireNonEmpty(dockerImageTag, "context variable 'dockerImageTag' must not be null");
 
         String region = (String) app.getNode().tryGetContext("region");
         requireNonEmpty(region, "context variable 'region' must not be null");
